@@ -57,3 +57,7 @@ The extracted features were fed into four different machine learning classifiers
 - **Traditional Features:** All traditional methods delivered moderate to poor results. Canny Edge Detection features performed the worst, with low accuracy and high log loss, as they lacked sufficient information for classification.
 
 This project confirms the superiority of deep learning for feature extraction in image classification, as the learned hierarchical representations are far more expressive and robust than handcrafted features.
+
+_________________________________________________________________________
+## Authors
+## CH.SC.U4AIE23016  |  CH.SC.U4AIE23043  |   CH.SC.U4AIE23046
