@@ -58,6 +58,16 @@ The extracted features were fed into four different machine learning classifiers
 
 This project confirms the superiority of deep learning for feature extraction in image classification, as the learned hierarchical representations are far more expressive and robust than handcrafted features.
 
+### Dataset generation
+The dataset was generated using the following steps:
+
+1. **Data Collection:** The dataset was collected using an automated downloader script [dataset_generation.py] that validated ImageNet URLs to ensure a robust and usable dataset. [For more information on this generation script, refer the repository "https://github.com/mf1024/ImageNet-Datasets-Downloader"]
+
+2. **Data Splitting:** The dataset was split into training and testing sets with a stratified 80/20 ratio.
+
+3. After this, the dataset is ready for the feature extraction, training and testing of the models, and evaluation of the results.
+
+
 _________________________________________________________________________
 ## Authors
 ## CH.SC.U4AIE23016  |  CH.SC.U4AIE23043  |   CH.SC.U4AIE23046
